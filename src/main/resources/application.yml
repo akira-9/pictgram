@@ -39,4 +39,7 @@ mail:
           starttls:
             enable: true
     thymeleaf:
-    check-template-location: false  
+    check-template-location: false
+    
+googlemap:
+  key: ${googlemap.key}
